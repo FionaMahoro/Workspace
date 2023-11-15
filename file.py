@@ -10,3 +10,11 @@
 # # Python can only concatnate str
 # print ("The sum is " + str(sum))
 
+# str= "python"
+# print (str.capitalize())
+
+# Boolean
+num1= 30
+num2= 2
+
+print (bool (num2 < num1))
