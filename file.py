@@ -40,15 +40,55 @@
 # print(total_item*dis/100)
 # print(total)
 
-name="Jake"
-age=70
-status= 'Minor'
+# name="Jake"
+# age=70
+# status= 'Minor'
 
-if age <= 17:
-    print('Minor')
+# if age <= 17:
+#     print('Minor')
 
-elif age >= 18 and age <= 64:
-    print('Adult')
+# elif age >= 18 and age <= 64:
+#     print('Adult')
 
-else:
-    print ('Senior citizen')
+# else:
+#     print ('Senior citizen')
+
+# # while loop
+# num =0
+# i= 0
+# # the 3 mean you can only input 3 numbers
+# while i <3:
+#     num= int (input('Number='))
+#     if num==0:
+#         print('Square is zero')
+#         continue
+#     if num ==1:
+#       print ('Program breaks')
+#       break
+
+#     sq= str(num*num)
+#     print('Square:' +sq)
+#     i +=1
+# else:
+#     print('Done')
+
+# For in a program
+
+# for e in 'Element':
+#     print (e.capitalize())
+
+# lst=[2,10,30,23,4]
+# for num in lst:
+#     print(num*2)
+
+lst= ['Python','C','Java',12,'Javascript']
+
+for ele in lst:
+    
+    if ele =='Javascript':
+        print(ele)
+        continue
+    if ele ==12:
+        # print("we have invalid item in the list")
+        break
+    print(ele.upper())
