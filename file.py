@@ -81,7 +81,7 @@
 # for num in lst:
 #     print(num*2)
 
-lst= ['Python','C','Java',12,'Javascript']
+lst= ['Python','C',12,'Java','Javascript']
 
 for ele in lst:
     
