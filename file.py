@@ -4,11 +4,11 @@
 # print (P_Name ,P_age, P_admit)
 
 
-# first_number= input('Enter number: ')
-# Second_number= input('Enter number: ')
-# sum = int(first_number) + int(Second_number) 
-# # Python can only concatnate str
-# print ("The sum is " + str(sum))
+first_number= input('Enter number: ')
+Second_number= input('Enter number: ')
+sum = int(first_number) + int(Second_number) 
+# Python can only concatnate str
+print ("The sum is " + str(sum))
 
 # str= "python"
 # print (str.capitalize())
@@ -81,14 +81,23 @@
 # for num in lst:
 #     print(num*2)
 
-lst= ['Python','C',12,'Java','Javascript']
+# lst= ['Python','C',12,'Java','Javascript']
 
-for ele in lst:
+# for ele in lst:
     
-    if ele =='Javascript':
-        print(ele)
-        continue
-    if ele ==12:
-        # print("we have invalid item in the list")
-        break
-    print(ele.upper())
+#     if ele =='Javascript':
+#         print(ele)
+#         continue
+
+#     # Program break when it reaches 12
+#     if ele ==12:
+#         # print("we have invalid item in the list")
+#         break
+#     print(ele.upper())
+
+# simple function for adding 
+# def adding (a,b,c):
+#     print (a+b-c)
+
+# adding(3,4,2)
+    
