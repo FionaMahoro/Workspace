@@ -100,13 +100,11 @@
 #     print (a+b-c)
 # adding(3,4,2)
 
-# lists= [2,3,5,6,2,1,6,7,8,9]
-# def remove_dups(l):
-#     unique = set(l)
-#     return list(unique)
-# print(lists)
-# print(remove_dups(lists))
+lists= [2,3,5,6,2,1,6,7,8,9]
+def remove_dups(l):
+    unique = set(l)
+    return list(unique)
+print(lists)
+print(remove_dups(lists))
        
-def adding (a,b,c):
-     print (a+b-c)
-adding(3,4,2)
+
