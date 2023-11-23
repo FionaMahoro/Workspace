@@ -4,11 +4,11 @@
 # print (P_Name ,P_age, P_admit)
 
 
-first_number= input('Enter number: ')
-Second_number= input('Enter number: ')
-sum = int(first_number) + int(Second_number) 
-# Python can only concatnate str
-print ("The sum is " + str(sum))
+# first_number= input('Enter number: ')
+# Second_number= input('Enter number: ')
+# sum = int(first_number) + int(Second_number) 
+# # Python can only concatnate str
+# print ("The sum is " + str(sum))
 
 # str= "python"
 # print (str.capitalize())
@@ -98,6 +98,12 @@ print ("The sum is " + str(sum))
 # simple function for adding 
 # def adding (a,b,c):
 #     print (a+b-c)
-
 # adding(3,4,2)
-    
+
+lists= [2,3,5,6,2,1,6,7,8,9]
+def remove_dups(l):
+    unique = set(l)
+    return list(unique)
+print(lists)
+print(remove_dups(lists))
+       
